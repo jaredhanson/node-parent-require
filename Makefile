@@ -1,5 +1,5 @@
 SOURCES = *.js
-TESTS = test/*.test.js
+TESTS = test/*.test.js test/**/*.test.js
 
 lint: lint-jshint
 test: test-mocha
