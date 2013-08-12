@@ -5,5 +5,5 @@ module.exports = function(id) {
       return parent.require(id);
     } catch(ex) {}
   }
-  throw new Error("Cannot find module '" + id + "' from parent")
-}
+  throw new Error("Cannot find module '" + id + "' from parent");
+};
